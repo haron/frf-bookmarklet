@@ -1,0 +1,8 @@
+### /Users/haron/.gitignore-boilerplates/Global/vim.gitignore
+
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+frf-bookmarklet.js
