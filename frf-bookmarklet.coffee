@@ -3,6 +3,7 @@ remove = (elem) -> elem.parentNode.removeChild(elem)
 try
     # removing Flickr clutter
     remove(d) for d in document.querySelectorAll('.play,.thin-facade,.fade-big,.zoom-trigger,.facade-of-protection')
+    d.onclick = nil for d in document.querySelectorAll('.pc_img,.defer')
     # reloading Instagram page if needed
     if document.querySelectorAll('.iLoaded').length
         alert('Please click the bookmark once again after the page in reloaded.')
